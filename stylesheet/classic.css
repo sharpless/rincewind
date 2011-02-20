@@ -1,0 +1,298 @@
+body {
+  font-family: verdana, arial, sans-serif;
+  font-size: 12px;
+  background-color: #AAF;
+}
+header, footer, nav, article, section, aside {
+  display: block;
+}
+header {
+  text-align: center;
+  width: 800px;
+  margin: 0 auto;
+}
+header nav {
+  float: left;
+  margin-left: 10px;
+  margin-bottom: -10px;
+}
+header nav ul {
+  /*margin-left: -40px;*/
+}
+header nav h1 {
+  font-size: 36px;
+}
+header nav li {
+  margin: 0 5px;
+  display: inline;
+  list-style-type: none;
+}
+header nav a {
+  padding: 0.25em 1em;
+  text-decoration: none;
+  border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+}
+header nav a:link {
+  color: #000000;
+  background: #96f;
+}
+header nav a:visited {
+  color: #000000;
+  background: #96f;
+}
+header nav a:hover {
+  background: #666699;
+  color: #ffffff
+}
+header nav a#current {
+  background: #b44;
+  color: #000000;
+}
+footer {
+  margin: 0 auto;
+  padding-top: 10px;
+  clear: both;
+  font-size: 10px;
+  width: 800px;
+}
+footer a {
+  color: #666;
+  text-decoration: none;
+}
+article {
+  width: 780px;
+  background-color: #96f;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  padding: 10px;
+  float: left;
+}
+span.h2 {
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+}
+article.mainCol5 {
+  width: 566px;
+  float: left;
+}
+aside.leftCol {
+  width: 576px;
+  background-color: #96f;
+  float: left;
+}
+aside.rightCol {
+  width: 174px;
+  float: right;
+  background-color: #96f;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  padding: 10px;
+}
+aside.rightCol ul li {
+list-style-type: none;
+}
+.clear {
+  clear: both;
+}
+.alignright {
+  float: right;
+  padding-right: 5px;
+}
+.alignleft {
+  float: left;
+}
+div.container {
+  width: 800px;
+  margin: 0 auto;
+}
+p.small {
+  font-size: 9px;
+  border-bottom: solid 1px #99F;
+  border-top: solid 1px #99F;
+  display: block;
+  height: 12px;
+  margin: 0 -10px;
+  padding: 6px 10px;
+  background-color: #CCF;
+}
+nav.login {
+  background-color: #96f;
+  color: #000;
+  padding: 10px 10px 0px 10px;
+  margin: 1px auto;
+  width: 800px;
+  height: 30px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+nav.login div.alignleft a {
+  color: #FC6;
+}
+div.rows {
+  float: left;
+  text-align: right;
+  color: #999;
+  border: solid 1px #999;
+  background: #eee;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  font-family: monospace;
+}
+div.rows a:link,
+div.rows a:visited,
+div.rows a:hover,
+div.rows a:active {
+  text-decoration:none;
+  color: inherit;
+}
+div.code {
+  white-space: nowrap;
+  border: solid 1px #999;
+  background: #f9f9f9;
+  padding: 0.5em 0.5em 0.5em 3.5em;
+}
+blockquote {
+  border: 1px black solid;
+  background: #FED;
+  padding: 5px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  margin: 5px;
+}
+section.threads, section.post {
+  background-color: #CCF;
+  margin-top: 10px;
+  overflow: auto;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+section.threads {
+  padding: 5px;
+}
+section.threads p {
+  padding-bottom: 5px;
+  border-bottom: dotted 1px black;
+}
+section.post header {
+  text-align: left;
+  width: 556px;
+  border-bottom: 1px dotted black;
+  padding-top: 1px;
+  padding-left: 10px;
+}
+section.post header p {
+  font-size: 9px;
+  font-style: italic;
+  width: auto;
+}
+section.post footer {
+  text-align: left;
+  width: 556px;
+  border-bottom: 1px solid #666;
+  border-top: 1px dotted #666;
+  margin-top: 20px;
+  padding: 0 0 0 10px;
+  font-size: 9px;
+  font-style: italic;
+  background-color: #DDF;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+.reply a{
+  background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#aaa)); /* for webkit browsers */
+  background: -moz-linear-gradient(top,  #eee,  #aaa); /* for firefox 3.6+ */
+  color: black;
+  padding: 5px;
+  border: solid 1px black;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  text-decoration: none;
+}
+p.reply {
+  margin-left: 10px;
+  display: block;
+  clear: both;
+}
+#save {
+  display: none;
+}
+a#published {
+  visibility: hidden;
+}
+span.author, span.time{
+  font-size: 9px;
+  padding-left: 5px;
+}
+table.tThreads {
+  width: 520px;
+  border-spacing: 0px;
+}
+th.threadcolumn {
+  width: 75%;
+  text-align: left;
+  border-bottom: 1px black dotted;
+}
+th.postcolumn {
+  width: 25%;
+  text-align: left;
+  border-bottom: 1px black dotted;
+}
+td.postcolumn, td.threadcolumn {
+  padding-top: 10px;
+}
+div.post {
+  padding: 5px 5px 5px 10px;
+  margin-bottom: 10px;
+  background-color: #DDD;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+div.comment {
+  margin: 10px 0px 10px 30px;
+  padding: 5px;
+  font-size: 10px;
+  background-color: #EEF;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  overflow: auto;
+}
+p.commentator {
+  font-size: 9px;
+  background-color: #DDF;
+  padding: 2px;
+  border-bottom: solid 1px #666;
+}
+div.commentform {
+  margin-top: 20px;
+  border-top: 2px dashed black;
+}
+span.h2 a {
+  color: black;
+  text-decoration: none;
+}
+label {
+  text-align: right;
+  float: left;
+  margin-right: 0.5em;
+  width: 10em;
+}
+input, textarea {
+  margin-bottom: 5px;
+}
+fieldset {
+  padding: 10px;
+}
+div.content {
+  padding-left: 10px;
+  padding-top: 5px;
+  float: left;
+  width: 450px;
+}
+.post aside {
+  display: block;
+  float: right;
+  width: 70px;
+  padding: 20px 0;
+}
